@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.main {
+    display: flex;
+    /* text-align: left; */
+    padding: 20px 40px;
+}
+
+.div-01 {
+    display: flex;
+    /* margin: 40px 0px; */
+    color: aqua;
+    margin-right: 10px;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+.div-02 {
+    text-align: center;
+    margin: auto;
+}
+
+.div-03 {
+    margin-left: 10px;
+    display: flex;
+}
+
+.div-03 div {
+    margin: 0 10px;
+    padding-top: 20px;
+}
+
+.div-01 div {
+    display: flex;
+    margin: 0px 20px;
+    padding-top: 20px;
+}
+
+.mailchaimp_logo {
+    height: 50px;
+    background-color: aqua;
+}
+
+.login-1, .login-2 {
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+.login-2{
+    background-color: yellow;
+
+}
+.login-1 :hover {
+    background-color: yellow;
+}
+.container{
+    display: flex;
+}
+.container .image img{
+    height: 650px;
+}
+
+.para{
+    padding: 100px;
+}
+
+.para1{
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 44px;
+}
+.para2{
+    padding: 10px 0px;
+    font-size: 17px;
+}
